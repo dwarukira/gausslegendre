@@ -1,6 +1,6 @@
 ## The Gauss-Legendre Algorithm
 
-The Gauss-Legendre algorithm is a quadratically convergant method of compiting pi.  It can be expressed mathematically as an infinite sequence of approximations:
+The Gauss-Legendre algorithm is a quadratically convergent method of computing pi.  It can be expressed mathematically as an infinite sequence of approximations:
 
 ![setup](https://wikimedia.org/api/rest_v1/media/math/render/svg/07cb5ca2a99df7d66078e7f2d626b9fd6e0ec839)
 
@@ -26,4 +26,4 @@ pi = sqr(a + b) / (4 * t)
 
 where `sqrt` and `sqr` are the square root and the square functions.  Note that two 'versions' of `a` are needed for updating `t`.
 
-This repo contains both a Python and C implementation of the above psudocode.
+This repo contains both a Python and C implementation of the above psudocode.  It is not intended to be an efficient tool for calculating pi (although it is by no means slow), but as an example implementation of an algorithm.
